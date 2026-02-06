@@ -38,7 +38,6 @@ body {
 
 .hero-container {
     width: 100%;
-    max-width: 1400px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -83,7 +82,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: rgba(0 , 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     transition: width 0.3s ease;
 }
 
@@ -114,13 +113,13 @@ body {
 }
 
 .hero-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     flex: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 900px;
     margin-top: -2rem;
 }
 
@@ -186,13 +185,124 @@ body {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-10px);
     }
+
     60% {
         transform: translateY(-5px);
     }
 }
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.subtitle {
+    display: block;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: playfair display, serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.autos-content {
+    padding: 8rem 0;
+    background: white;
+}
+
+.autos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+}
+
+.autos-title {
+    position: sticky;
+    top: 100px;
+}
+
+.auto-image img {
+    width: 100%;
+}
+
+span {
+    display: block;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.price {
+    color: gray;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.buttons {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ontdek {
+    color: var(--text-dark-color);
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.samenstellen {
+    color: var(--text-color);
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auto {
+    transition: all 0.3s ease;
+}
+
+.auto:hover {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    border-radius: 10px;
+}
+/* 
+<div class="auto">
+    <div class="auto-image">
+        <img src="/assets/images/ibiza/seat-new-ibiza-pa-liminal.avif" alt="Seat Ibiza">
+    </div>
+    <span>Ibiza</span>
+    <p class="price">Vanaf € 23.990 **</p>
+    <div class="buttons">
+        <a href="#" class="ontdek">Ontdek 'm</a>
+        <a href="#" class="samenstellen">Stel 'm samen</a>
+    </div>
+</div>
+*/
