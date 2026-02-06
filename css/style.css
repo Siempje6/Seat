@@ -293,16 +293,53 @@ span {
     padding: 1rem;
     border-radius: 10px;
 }
-/* 
-<div class="auto">
-    <div class="auto-image">
-        <img src="/assets/images/ibiza/seat-new-ibiza-pa-liminal.avif" alt="Seat Ibiza">
-    </div>
-    <span>Ibiza</span>
-    <p class="price">Vanaf € 23.990 **</p>
-    <div class="buttons">
-        <a href="#" class="ontdek">Ontdek 'm</a>
-        <a href="#" class="samenstellen">Stel 'm samen</a>
-    </div>
-</div>
-*/
+
+.op-zoek {
+    padding: 6rem 0;
+    background: white;
+}
+
+.op-zoek-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+.opties-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.optie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.optie .svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optie span {
+    color: #6f6f6f;
+}
+
+.optie img {
+    width: 20%;
+    margin-bottom: 2rem;
+}
+.optie a {
+    background: var(--text-color);
+    color: var(--bg-white);
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+}
