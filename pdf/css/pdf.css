@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: white;
+  }
+  
+  .pdf {
+    width: 800px;
+    padding: 60px;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+  }
+  
+  .pdf-header {
+    border-bottom: 2px solid #e60012;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .pdf-logo {
+    width: 120px;
+  }
+  
+  .pdf h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+  }
+  
+  .subtitle {
+    display: block;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .pdf-image {
+    width: 100%;
+    margin: 30px 0;
+  }
+  
+  .pdf-specs p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  

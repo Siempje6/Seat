@@ -1,0 +1,234 @@
+.right img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.page-menu {
+    background: #fff;
+    padding: 2rem;
+}
+
+.container-page-menu {
+    width: 1400px;
+    margin-left: 3rem;
+}
+
+.page-menu-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.page-menu-nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.page-menu-nav a:hover {
+    transform: translateY(-2px);
+}
+
+.page-menu-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: width 0.3s ease;
+}
+
+.page-menu-nav a:hover::after {
+    width: 100%;
+}
+
+.ideale-ibiza {
+    background: #f6f6f6;
+}
+
+.ideale-ibiza {
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.ideale-container {
+    margin-top: 0rem;
+    max-width: 1400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.auto-preview img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.opties-ideale {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.opties {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.opties-ideale .opties a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.opties-ideale .opties a:hover {
+    transform: translateY(-2px);
+}
+
+.opties-ideale .opties a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: width 0.3s ease;
+}
+
+.opties-ideale .opties a:hover::after {
+    width: 100%;
+}
+
+.Kleuren {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.kleur {
+    width: 58px;
+    height: 58px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kleur.active {
+    border-color: #e60012;
+    box-shadow: 0 0 5px rgba(230, 0, 18, 0.5);
+}
+
+.kleur .rood {
+    background: #e60012;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.kleur .wit {
+    background: #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.kleur .grijs {
+    background: #424045;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.kleur .donkergrijs {
+    background: #2c2e3b;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.kleur .zwart {
+    background: #2c2e3b;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.kleur .donkerblauw {
+    background: #2c2e3b;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.kleur-beschrijving {
+    margin-top: -2rem;
+}
+
+.opties-ideale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+/*
+<section class="ideale-ibiza">
+
+            <h2>Stel jouw ideale Ibiza samen</h2>
+            <p>Maak jouw keuze. Kies je favoriete lakkleur en lichtmetalen velgen.</p>
+            <div class="ideale-container">
+                
+                <div class="opties-ideale">
+                    <div class="opties">
+                        <a href="#">Kleuren</a>
+                        <a href="#">Velgen</a>
+                    </div>
+
+                    <div class="Kleuren">
+                        <div class="kleur">
+                            <div class="rood"></div>
+                        </div>
+                        <div class="kleur">
+                            <div class="wit"></div>
+                        </div>
+                        <div class="kleur">
+                            <div class="grijs"></div>
+                        </div>
+                        <div class="kleur">
+                            <div class="donkergrijs"></div>
+                        </div>
+                        <div class="kleur">
+                            <div class="zwart"></div>
+                        </div>
+                        <div class="kleur">
+                            <div class="donkerblauw"></div>
+                        </div>
+                                                
+                    </div>
+
+                    <a href="#" class="btn-third">Stel 'm verder samen</a>
+                </div>
+                
+                <div class="auto-preview">
+                    <div class="auto-preview">
+                        <img src="../../../assets/images/ibiza/Ibiza FR trim garantie.webp" alt="" class="auto-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+*/
