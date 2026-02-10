@@ -1,0 +1,21 @@
+/* Bestaande CSS blijft staan */
+
+/* Print/PDF styles */
+@media print {
+    .no-print,
+    nav,
+    footer,
+    .pdf-button { 
+      display: none !important; 
+    }
+    
+    body { 
+      print-color-adjust: exact; 
+      -webkit-print-color-adjust: exact; 
+    }
+    
+    /* Zorg dat pagina's netjes breken */
+    .page-break {
+      page-break-before: always;
+    }
+  }

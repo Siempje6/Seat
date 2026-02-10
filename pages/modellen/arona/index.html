@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>SEAT Arona</title>
+  <link rel="stylesheet" href="../../../css/main.css">
+</head>
+<body>
+  <!-- Navigatie wordt verborgen in PDF -->
+  <nav class="no-print">...</nav>
+  
+  <!-- Content voor PDF export -->
+  <main id="arona-content">
+    <h1>SEAT Arona</h1>
+    <img src="../../../assets/images/arona/hero.jpg" alt="Arona">
+    <!-- specificaties, prijzen, etc -->
+  </main>
+  
+  <!-- PDF knop -->
+  <button 
+    class="pdf-button no-print" 
+    data-pdf-export="arona-content">
+    Download PDF
+  </button>
+  
+  <footer class="no-print">...</footer>
+
+  <!-- Initialiseer PDF export -->
+  <script type="module">
+    import { initPDFExport } from '../../../js/pdf-export.js';
+    initPDFExport();
+  </script>
+</body>
+</html>
